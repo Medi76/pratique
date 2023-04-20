@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: rgba(19, 128, 109, 0.664);
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    padding: 1rem;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem; /* division  de l'ecran avec le h2*/
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+h2{
+    flex: 2 1 40rem; /*prend 2/3 de l'ecran si il y avait 1 a la 
+                        place de 2 ça serait moitie moitie*/
+}
