@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #b6a9a3;
+}
 .head{
     background-color: rgba(19, 128, 109, 0.664);
     color: #fff;
@@ -25,8 +28,40 @@ nav ul{
     justify-content: space-around;
     list-style: none;
     align-items: center;
+    
 }
 h2{
     flex: 2 1 40rem; /*prend 2/3 de l'ecran si il y avait 1 a la 
                         place de 2 ça serait moitie moitie*/
+}
+nav ul li:hover{
+    color:#fff;
+    background-color: #1d3ce9ee;
+}
+nav ul li::after{
+    content: '';
+    height: 2px;
+    background: #f98753;
+    margin: auto;
+   transition: 0,5s;
+}
+main{
+   
+    height: 300px;
+    color: #000;
+   
+}
+section{
+    background: url(../image/bur.jpg) no-repeat ;
+    background-size: cover;
+    height: 250px;
+   margin-top: 10px;
+  
+}
+.first{
+    align-items: center;
+    
+}
+section .pub{
+    
 }
